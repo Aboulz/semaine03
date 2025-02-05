@@ -115,3 +115,12 @@ h2{
     width: 1280px;
     height: 450px;
 }
+
+/*   Section Article   */
+
+.contenu-article{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 40px;
+    background-color: white;
+}
