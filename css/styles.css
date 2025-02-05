@@ -1,0 +1,117 @@
+/*----------------------------------------------------------------------------------
+    Reset
+----------------------------------------------------------------------------------*/
+
+html{
+    box-sizing: border-box;
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+/*----------------------------------------------------------------------------------
+    Base
+----------------------------------------------------------------------------------*/
+
+body{
+    background-color: #E3E4E4;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+}
+
+a{
+    text-decoration: none;
+}
+
+/*----------------------------------------------------------------------------------
+    Mise en page
+----------------------------------------------------------------------------------*/
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------------
+    Modules
+----------------------------------------------------------------------------------*/
+
+/*   Header   */
+
+header{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+header div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*   Logo   */
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-size: 43px;
+    font-weight: bold;
+    color: black;
+
+    margin: 0;
+}
+
+header img{
+    margin-right: 10px;
+}
+
+/*   Nav   */
+
+li{
+    font-size: 16px;
+    font-family: 'Dosis', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li{
+    margin-left: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+nav a:hover{
+    padding: 9px 10px;
+    background-color: #0E5EA1;
+    color: white;
+    border-radius: 5px;
+}
+
+
+/*   Hero   */
+
+h2{
+    display: flex;
+    padding-top: 165px;
+    justify-content: center;
+    background-image: url(../images/montagnes-alpes.jpg);
+    width: 1280px;
+    height: 450px;
+}
